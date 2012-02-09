@@ -1,4 +1,4 @@
-dojo.provide('client.flickrBomb');
+dojo.provide('client.flickrbomb-min');
 
 /*
  * flickrBomb v1
