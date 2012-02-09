@@ -1,0 +1,19 @@
+@import 'settings';
+@import 'helpers/mixins';
+@import 'helpers/forms';
+
+@import 'splash';
+@import 'screen';
+
+body {
+  color: $text-color;
+  font-family: $base-font;
+}
+
+.page {
+  background-color: $app-background-color;
+}
+
+@import 'components/base';
+@import 'page_defs/base';
+@import '../../javascript/components/FlickrBomb/flickr-bomb';

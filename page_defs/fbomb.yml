@@ -1,0 +1,19 @@
+fbomb:
+  capabilities:
+    # Edit the file at javascript/capabilities/PageFbomb.js in order
+    # to add JavaScript functionality to this page. For more details, see the
+    # Mulberry documentation on Capabilities
+    - name: PageFbomb
+  screens:
+    - name: index
+      regions:
+        - className: page-nav
+          components:
+            - PageNav
+        - # By default, `scrollable` is false
+          scrollable: true
+          components:
+            # Add your components here as a list. For example:
+            # - BodyText
+            # - ImageGallery
+             - custom.FlickrBomb
