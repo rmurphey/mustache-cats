@@ -11,8 +11,13 @@ body {
 
 .page {
   background-color: $app-background-color;
+
+  .screen {
+    @include standard-screen;
+  }
 }
 
 @import 'components/base';
 @import 'page_defs/base';
 @import '../../javascript/components/FlickrBomb/flickr-bomb';
+
